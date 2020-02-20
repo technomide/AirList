@@ -1,0 +1,4 @@
+primary clr value=#2128bd
+secondry clr value=#fdf0e5
+pluso box clr =#42b2ad
+clr use in pattern =#00ffff / #00bff3 / #0995e4 / #39b54a

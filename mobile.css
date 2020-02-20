@@ -1,0 +1,282 @@
+@import url("./style.css");
+
+/*
+==================
+Global Style
+==================
+*/
+html,
+body{
+	font-size: 55%;
+}
+/*
+===================
+Universal Style
+===================
+*/
+/* h1{
+	font-size: 
+}
+p{
+	font-size: 14px;
+} */
+/*
+==================
+Header
+==================
+*/
+header{
+	height: 85px;
+}
+
+.main-nav > :nth-child(1) a img{
+	width: 80px;
+}
+/*
+===================
+Container
+===================
+*/
+.container{
+	width: 330px;
+	margin: auto;
+}
+.secondary-container{
+	width: 100%;
+	margin: auto;
+}
+
+/*
+==================
+ShowCase
+==================
+*/
+.contant{
+	width: 130px;
+}
+.contant h1{
+	font-size: 2rem;
+}
+.main-div{
+	min-height: 246px;
+}
+.contant hr{
+	height: 2.5px;
+	width: 60px;
+}
+/*
+==================
+Description
+==================
+*/
+.Description{
+	min-height: 225px;
+}
+.main-div-des{
+	max-width: 600px;
+	min-height: 110px;
+}
+.main-div-des h1{
+	padding: 0px 1.8em;
+}
+/*
+==================
+First Slider
+==================
+*/
+.main-div-first-slider{
+	min-height: 160px;
+}
+.main-div-first-slider a{
+	font-size: 1rem;
+}
+/*
+==================
+Logo's Section
+==================
+*/
+.main-logos{
+	min-height: 115px;
+}
+.blue-section{
+	height: 90px;
+}
+.main-logos img{
+	width: 53px;
+}
+/*
+==================
+Cards Section
+==================
+*/
+.main-Cards-div{
+	min-height: 610px;
+}
+.main-Cards-div > :nth-child(1){
+	min-height: 515px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.main-Cards-div > :nth-child(1) .card{
+	width: 80%;
+	height: 244px;
+}
+.main-Cards-div > :nth-child(1) .card > :nth-child(1){
+	height: 140px;
+	width: 100%;
+}
+.main-Cards-div > :nth-child(1) .card > :nth-child(1) > :nth-child(1) img{
+	width: 90px;
+	height: 34px;
+}
+/*
+==================
+UI Section
+==================
+*/
+.main-ui{
+	min-height: 235px;
+}
+.main-ui-cont > :nth-child(1){
+	padding-left: 4em;
+}
+.main-ui-cont > :nth-child(1) ul li a{
+	font-size: 0.9rem;
+}
+.main-ui-cont{
+	min-height: 235px;
+}
+.main-ui-cont > :nth-child(1) ul li{
+	margin: 5px 0px;
+}
+.main-ui-cont > :nth-child(2){
+	width: 70%;
+}
+.main-ui-cont > :nth-child(2) > :nth-child(1){
+	top: 33%;
+	right: -8em;
+	width: 98%;
+	height: 119px;
+}
+.main-ui-cont > :nth-child(2) > :nth-child(2){
+	width: 98%;
+	height: 64%;
+}
+
+/*
+==================
+Describe Section
+==================
+*/
+.describe{
+	min-height: 270px;
+}
+.main-describe{
+	min-height: 226px;
+}
+.main-describe > :nth-child(2) p{
+	padding: 0px 1.6em;
+}
+.main-describe > :nth-child(1) img{
+	width: 80px;
+}
+/*
+=======================
+Second Slider Section
+=======================
+*/
+.Second-Slider{
+	min-height: 590px;
+}
+.Second-Slider > :nth-child(1){
+	min-height: 290px;
+}
+.Second-Slider > :nth-child(1) > :nth-child(1){
+	min-height: auto;
+}
+.Second-Slider > :nth-child(1) > :nth-child(1) > :nth-child(1){
+	height: 166px;
+	padding-left: 3.2em;
+}
+.Second-Slider > :nth-child(1) > :nth-child(1) > :nth-child(2){
+	height: 230px;
+}
+.Second-Slider > :nth-child(2){
+	height: 260px;
+}
+
+/*
+==================
+Third Slider
+==================
+*/
+.main-third-slider{
+	min-height: 786px;
+}
+.main-third-slider .main-third-contant{
+	min-height: 680px;
+}
+.main-third-slider .main-third-contant > :nth-child(1) img{
+	width: 80px;
+}
+.main-third-slider .main-third-contant > :nth-child(2){
+	text-align: center;
+}
+.main-third-slider .main-third-contant > :nth-child(2) hr{
+	width: 35px;
+}
+.main-third-slider .main-third-contant > :nth-child(3){
+	min-height: 200px;
+}
+.main-third-contant #Cards{
+	flex-direction: column;
+	justify-content: space-between;
+    min-height: 280px;
+}
+.main-third-contant #Cards .cards{
+	max-width: 210px;
+	min-height: 60px;
+}
+.main-third-contant #Cards .cards > :nth-child(1){
+	text-align: center;
+}
+/*
+======================
+Last Contant Section
+======================
+*/
+.MAIN{
+	min-height: 625px;
+}
+.main-contant-sec{
+	min-height: 546px;
+}
+.main-contant-sec > :nth-child(1) h1{
+	font-size: 1.8rem;
+}
+/*
+==================
+Footer
+==================
+*/
+footer{
+	min-height: 280px;
+}
+.main-footer > :nth-child(1) img{
+	width: 90px;
+	height: 80%;
+}
+.main-footer{
+	min-width: 320px;
+	max-width: 419px;
+	min-height: 190px;
+}
+.main-footer > :nth-child(2){
+	min-height: 110px;
+	width: 85%;
+}
+.main-footer > :nth-child(2) .card ul li a{
+	font-size: 1.2em;
+}
+
+

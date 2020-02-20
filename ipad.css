@@ -1,0 +1,169 @@
+@import url("./style.css");
+
+
+/*
+==================
+Global Style
+==================
+*/
+html,
+body{
+	font-size: 70%;
+}
+/*
+===================
+Container
+===================
+*/
+.container{
+	max-width: 700px;
+	margin: auto;
+}
+.secondary-container{
+	max-width: 768px;
+	margin: auto;
+}
+.contant{
+	width: 290px;
+}
+/*
+==================
+Description
+==================
+*/
+.Description{
+	min-height: 355px;
+}
+.main-div-des{
+	max-width: 600px;
+}
+/*
+==================
+First Slider
+==================
+*/
+.main-div-first-slider{
+	min-height: 260px;
+}
+/*
+==================
+Logo's Section
+==================
+*/
+.blue-section{
+	height: 160px;
+}
+.main-logos img{
+	width: 110px;
+}
+/*
+==================
+Cards Section
+==================
+*/
+.main-Cards-div > :nth-child(1) .card{
+	height: 290px;
+}
+.main-Cards-div > :nth-child(1) .card > :nth-child(1){
+	height: 160px;
+}
+/*
+==================
+UI Section
+==================
+*/
+.main-ui-cont > :nth-child(1){
+	padding-left: 30px;
+	width: 45%;
+}
+.main-ui-cont > :nth-child(1) ul li a{
+	font-size: 1.9rem;
+}
+.main-ui-cont > :nth-child(1)
+.main-ui-cont{
+	min-height: 415px;
+}
+.main-ui-cont > :nth-child(2) > :nth-child(1){
+	top: 31%;
+	right: -65px;
+	width: 92%;
+	height: 250px;
+}
+.main-ui-cont > :nth-child(2) > :nth-child(2){
+	height: 73%;
+	width: 94%;
+}
+/*
+==================
+Describe Section
+==================
+*/
+.main-describe{
+	min-height: 310px;
+}
+
+
+/*
+=======================
+Second Slider Section
+=======================
+*/
+.Second-Slider{
+	min-height: 970px;
+}
+.Second-Slider > :nth-child(1){
+	min-height: 500px;
+}
+.Second-Slider > :nth-child(1) > :nth-child(1) > :nth-child(1){
+	height: 215px;
+}
+.Second-Slider > :nth-child(1) > :nth-child(1) > :nth-child(2){
+	height: 435px;
+}
+.Second-Slider > :nth-child(1) > :nth-child(1){
+	min-height: 480px;
+}
+/*
+======================
+Third Slider Section
+======================
+*/
+.main-third-slider{
+	min-height: 1020px;
+}
+.main-third-contant #Cards .cards{
+	max-width: 210px;
+	min-height: 143px;
+}
+.main-third-contant #Cards{
+	min-height: 230px;
+}
+.main-third-contant #Cards .cards{
+	min-height: 100px;
+}
+/*
+======================
+Last Contant Section
+======================
+*/
+.MAIN{
+	min-height: 730px;
+}
+.main-contant-sec{
+	min-height: 600px;
+}
+/*
+==================
+Footer
+==================
+*/
+footer{
+	min-height: 390px;
+}
+.main-footer{
+	min-height: 245px;
+	width: 650px;
+}
+.main-footer > :nth-child(2){
+	min-height: 130px;
+}
